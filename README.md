@@ -12,7 +12,6 @@ Generic repository for a terraform module for AWS S3 encrypted bucket with AWS K
 - [Release log](#release-log)
 - [Module versioning & git](#module-versioning-&-git)
 - [Local terraform setup](#local-terraform-setup)
-- [Authors/Contributors](#authorscontributors)
 
 
 # Intro
@@ -32,7 +31,7 @@ Example usage:
 
 ```hcl
 module "dev_s3_encrypted" {
-  source                            = "github.com/diogoaurelio/terraform-module-aws-storage-s3-encrypted"
+  source                            = "bitbucket.org/geanalytics/terraform-module-aws-storage-s3-encrypted"
   version                           = "v0.0.1"
 
   environment                       = "dev"
@@ -85,8 +84,3 @@ brew install terraform
 ```bash
 pre-commit install
 ```
-
-
-# Authors/Contributors
-
-See the list of [contributors](https://github.com/diogoaurelio/terraform-module-aws-storage-s3-encrypted/graphs/contributors) who participated in this project.
