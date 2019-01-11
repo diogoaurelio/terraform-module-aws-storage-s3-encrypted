@@ -40,6 +40,10 @@ variable "versioning_enabled" {
   default = false
 }
 
+variable "mfa_delete_enabled" {
+  default = true
+}
+
 variable "transition_lifecycle_rule_enabled" {
   default = false
 }
